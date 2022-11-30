@@ -22,11 +22,10 @@ api.post("/notes", (req, res) => {
   };
 
   let notes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+
   notes.push(newNote);
-  fs.writeFileSync("./db/db.json", JSON.stringify(notes), (err, res) => {
-    if (err) throw err;
-    return true;
-  });
+  
+  fs.writeFileSync("./db/db.json", JSON.stringify(notes));
 
   res.json(notes);
 });
