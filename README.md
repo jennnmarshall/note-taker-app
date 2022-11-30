@@ -2,9 +2,8 @@
 
 ## Description
 
-This project is a command line application that dynamically generates a homepage for a project team based on user input. 
+This note taking application will save, display and delete notes created by the user. The front end was provided and I created the Express.JS commands that connect the front end to the server. 
 
-The walkthrough video can be found [here](https://www.youtube.com/watch?v=tev6qnnt-XQ)
 ****
 
 ## Table of Contents
@@ -18,18 +17,15 @@ The walkthrough video can be found [here](https://www.youtube.com/watch?v=tev6qn
 ****
 ## Installation
 
-To generate a team site using this application, clone down this repository to a local file. To install the required external packages Inquirer v 8.2.4 and Jest v 24.8.0, run:
-
-```md
-npm i
-```
+N/A for this application. 
 
 ****
 ## Usage
 
-![screenshot of generated site](./src/sitescreenshot.png)
+![screenshot of generated site](./Project%20Info/note%20taker%20screenshot%201.png)
+![screenshot of generated site](./Project%20Info/note%20taker%202.png)
 
-Run the application using `node index.js`, then fill out the prompts. When finished, your site will be generated in the dist directory, titled with the user's entered project name.
+Click the "Get Started" button, then begin writing and saving your notes with the save icon located upper right. You can delete notes with the trash can icon on the note, or add a new note with the add icon in the upper right. 
 
 ****
 ## License
@@ -44,10 +40,7 @@ Not applicable to this project.
 ****
 ## Tests
 
-To run the tests, enter:
-```md
-npm run test
-```
+Not applicable to this project.
 
 ****
 ## Questions
