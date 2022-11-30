@@ -4,6 +4,8 @@
 
 This note taking application will save, display and delete notes created by the user. The front end was provided and I created the Express.JS commands that connect the front end to the server. 
 
+[You can access the deployed application here!](https://safe-cove-82351.herokuapp.com/)
+
 ****
 
 ## Table of Contents
